@@ -1,0 +1,21 @@
+/*==============================================================*/
+/* DBMS name:      ORACLE Version 10g                           */
+/* Created on:     2014/2/27 9:50:10                            */
+/*==============================================================*/
+
+
+drop table "wx_accounts" cascade constraints;
+
+/*==============================================================*/
+/* Table: "wx_accounts"                                         */
+/*==============================================================*/
+create table "wx_accounts"  (
+   原始ID                 CHAR(10)
+);
+
+comment on table "wx_accounts" is
+'公众号';
+
+comment on column "wx_accounts".原始ID is
+'原始ID';
+
